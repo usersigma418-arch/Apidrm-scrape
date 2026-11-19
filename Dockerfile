@@ -5,7 +5,7 @@ ENV JAVA_TOOL_OPTIONS="-Xmx384m -XX:+UseSerialGC"
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    openjdk-17-jre-headless \
+    openjdk-21-jre-headless \
     unzip \
     wget \
     ca-certificates \
